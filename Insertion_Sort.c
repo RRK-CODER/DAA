@@ -7,7 +7,7 @@ scanf("%d", &n);
 printf("Enter the elements of the array \n");
 for(i=0; i< n; i++)
 {
-    scanf("%d ", &arr[i]);
+    scanf("%d", &arr[i]);
     
 }
 
@@ -25,7 +25,7 @@ for(i=1; i<n ; i++)
 
 printf("Sorted list\n");
 for(i=0; i<n ; i++)
-printf("%d", arr[i]);
+printf("%d ", arr[i]);
 
 return 0;
 

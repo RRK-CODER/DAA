@@ -42,7 +42,7 @@ scanf("%d", &n);
 printf("Enter the elements of the array \n");
 for(i=0; i< n; i++)
 {
-    scanf("%d ", &arr[i]);
+    scanf("%d", &arr[i]);
 }
 heapSort(arr,n);
 
