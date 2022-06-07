@@ -1,17 +1,15 @@
 #include<stdlib.h>
 #include<stdio.h>
-#define NODE 7
+#define NODE 5
 #define INF 999
 
 //Cost matrix of the graph
 int costMat[NODE][NODE] = {
-   {0, 3, 6, INF, INF, INF, INF},
-   {3, 0, 2, 1, INF, INF, INF},
-   {6, 2, 0, 1, 4, 2, INF},
-   {INF, 1, 1, 0, 2, INF, 4},
-   {INF, INF, 4, 2, 0, 2, 1},
-   {INF, INF, 2, INF, 2, 0, 1},
-   {INF, INF, INF, 4, 1, 1, 0}
+   {0,1,-3,2,-4},
+   {3,0,-4,1,-1},
+   {7,4,0,5,3},
+   {2,-1,-5,0,-2},
+   {8,5,1,6,0}
 };
 void floydWarshal(){
    int cost[NODE][NODE]; 
